@@ -1,5 +1,5 @@
 <?php
-namespace TymFrontiers\CDN{
+namespace TymFrontiers{
 
   class BetaTym{
     # default tym format strings
