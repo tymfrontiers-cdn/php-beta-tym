@@ -79,7 +79,7 @@ namespace TymFrontiers{
       return self::hour($dateTym).':'.\date(self::MINUTE.':'.self::SECOND, $unix);
     }
     public static function dateTym($dateTym=""){
-      return self::MDY($dateTym).', '.self::HMS($dateTym);
+      return self::MDY($dateTym).' at '.self::HMS($dateTym);
     }
     public static function week($dateTym=""){
       $unix = !empty($dateTym) ? self::seconds($dateTym) : \time();
